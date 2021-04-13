@@ -2,5 +2,15 @@
   color: black;
 }
 .margenP {
-  margin-bottom: -9px;
+  margin-bottom: -6px;
+}
+.imgCard {
+  width: 140px;
+}
+.alignDivCard {
+  text-align: center;
+  position: relative;
+}
+.divCard {
+  margin: 20px 300px;
 }
