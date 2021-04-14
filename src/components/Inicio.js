@@ -15,6 +15,7 @@ export default class Inicio extends Component {
         <section id="main-content">
           <article>
             <header>
+              <h1>Hola Caracola</h1>
               <h1 className="marginTop">
                 Comunicación Integral para Centros Hospitalarios
               </h1>
