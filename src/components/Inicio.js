@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import Accordion from "./Accordion";
 import "../style/Inicio.css";
+import Header from "./Header";
 
 export default class Inicio extends Component {
   constructor(props) {
@@ -12,10 +13,10 @@ export default class Inicio extends Component {
   render() {
     return (
       <Fragment>
+        <Header />
         <section id="main-content">
           <article>
             <header>
-              <h1>Hola Caracola</h1>
               <h1 className="marginTop">
                 Comunicación Integral para Centros Hospitalarios
               </h1>
