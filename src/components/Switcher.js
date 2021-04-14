@@ -14,11 +14,12 @@ export default class Switcher extends Component {
         <Header />
         <Switch>
           {/* <Route path="https://franbcn93.github.io/react_web/" exact> */}
+          {/* <Route path={["/", "/react_web"]} exact> */}
           <Route path="/" exact>
-            {/* <Route path="/react_web" exact> */}
             <Inicio />
           </Route>
-          <Route path="/gestion">
+
+          {/* <Route path="/gestion">
             <Gestion />
           </Route>
           <Route path="/hospitales">
@@ -26,7 +27,7 @@ export default class Switcher extends Component {
           </Route>
           <Route path="/contacto">
             <Contacto />
-          </Route>
+          </Route> */}
         </Switch>
         <Footer />
       </Router>

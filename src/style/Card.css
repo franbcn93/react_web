@@ -2,10 +2,12 @@
   color: black;
 }
 .margenP {
-  margin-bottom: -6px;
+  margin: 10px;
 }
 .imgCard {
-  width: 140px;
+  width: 117px;
+  max-width: 147px;
+  max-height: 110px;
 }
 .alignDivCard {
   text-align: center;
@@ -13,4 +15,7 @@
 }
 .divCard {
   margin: 20px 300px;
+}
+.MarginTitle {
+  margin-top: 15px;
 }

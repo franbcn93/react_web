@@ -34,6 +34,7 @@ img {
   height: 91px;
   position: fixed;
   margin-top: -109px;
+  z-index: 2;
 }
 #main-header a {
   color: white;
