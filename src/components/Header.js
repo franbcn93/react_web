@@ -17,7 +17,8 @@ export default class Header extends Component {
             <ul>
               <li>
                 {/* <a href="https://franbcn93.github.io/react_web/">Inicio</a> */}
-                <a href="/react_web">Inicio</a>
+                <a href="/">Inicio</a>
+                {/* <a href="/react_web">Inicio</a> */}
               </li>
               <li>
                 <a href="/gestion">Tecnología e innovación</a>
