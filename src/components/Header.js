@@ -16,15 +16,25 @@ export default class Header extends Component {
           <nav>
             <ul>
               <li>
+                <a href={("/", "/react_web")}>Inicio</a>
+              </li>
+              <li>
+                <a href="/gestion">Tecnología e innovación</a>
+              </li>
+              <li>
+                <a href="/hospitales">Hospitales</a>
+              </li>
+              <li>
+                <a href="/contacto">Contacto</a>
+              </li>
+              {/* <li>
                 <a href="https://franbcn93.github.io/react_web/">Inicio</a>
-                {/* <a href="/react_web">Inicio</a> */}
               </li>
               <li>
                 <a href="https://franbcn93.github.io/react_web_gestion/">
                   Tecnología e innovación
                 </a>
               </li>
-              {/* Está por modificar */}
               <li>
                 <a href="https://franbcn93.github.io/react_web_hospitales/">
                   Hospitales
@@ -34,7 +44,7 @@ export default class Header extends Component {
                 <a href="https://franbcn93.github.io/react_web_contacto/">
                   Contacto
                 </a>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </header>

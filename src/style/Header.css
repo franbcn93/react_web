@@ -139,3 +139,42 @@ nav ul li a:hover {
   margin-right: auto;
   width: 50%;
 }
+
+@media only screen and (max-width: 600px) {
+  nav ul {
+    margin: -63px;
+    padding: 3px;
+    list-style: none;
+    padding-right: 60px;
+  }
+  li {
+    display: inline-block;
+    line-height: 64px;
+    margin-left: -14px;
+  }
+  .imgLogo {
+    margin-top: 6px;
+    width: 43%;
+    margin-left: -8px;
+  }
+}
+@media (min-width: 601px) and (max-width: 664px) {
+  .imgLogo {
+    width: 52%;
+  }
+  nav ul {
+    margin: -60px;
+    padding-right: 66px;
+  }
+}
+@media (min-width: 665px) and (max-width: 800px) {
+  .imgLogo {
+    width: 52%;
+  }
+  nav ul {
+    margin: -32px;
+    padding-right: 72px;
+  }
+}
+/* 
+*/

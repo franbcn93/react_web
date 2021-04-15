@@ -85,8 +85,17 @@ export default class Inicio extends Component {
               <div data-header="Software de Gestión" className="accordion-item">
                 <p>
                   El control de cada uno de los servicios contratados se
-                  encuentra centralizado en un servidor que facilitada de
-                  estadísticas diarias, mensuales, trimestrales y anuales de
+                  encuentra centralizado en un servidor y se obtiene a través de
+                  todos los puntos de venta ubicados en los lugares indicados
+                  por la gerencia del Centro Sanitario. En cada uno de estos
+                  puntos de venta, el paciente podrá contratar el servicio
+                  deseado a través de la pantalla táctil, como por ejemplo, el
+                  servicio de televisión, con sólo seleccionarlo e introducir su
+                  número de habitación. Una vez realizado el pago del servicio,
+                  se le activará el TV de la habitación de forma totalmente
+                  automática. Además, el Centro Sanitario dispone de un Control
+                  absoluto de cada servicio mediante la información facilitada
+                  de estadísticas diarias, mensuales, trimestrales y anuales de
                   cada habitación.
                 </p>
                 <br></br>

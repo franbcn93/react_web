@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from "react";
 import "../style/Card.css";
 import { hospitales } from "../hospitales.json";
-import Header from "./Header";
 
 export default class Card extends Component {
   constructor() {
@@ -20,7 +19,7 @@ export default class Card extends Component {
               <h3 className="MarginTitle">{todo.nombre}</h3>
               <span className="badge bg-secondary">{todo.comarca}</span>
               <p className="margenP">{todo.habitaciones} habitaciones</p>
-              <img className="imgCard" src={todo.imagen} width="30%" />
+              <img className="imgCard" src={todo.imagen} width="30%" alt="" />
             </div>
           </div>
         </div>
