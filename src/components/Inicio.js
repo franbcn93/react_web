@@ -18,7 +18,7 @@ export default class Inicio extends Component {
           <article>
             <header>
               <h1 className="marginTop">
-                Comunicación Integral para Centros Hospitalarios
+                Comunicación Integral para Centros Hospitalarioss
               </h1>
             </header>
 
